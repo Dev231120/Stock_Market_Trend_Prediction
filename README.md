@@ -13,12 +13,12 @@ Both models are trained on a rich feature set combining technical indicators (EM
 Project Structure-
 stock_market_trend
 
-├── stock_market_trend.ipynb      # Main Jupyter notebook
-├── archive (3).zip               # News headlines dataset (CNBC, Reuters, Guardian)
-│   ├── cnbc_headlines.csv
-│   ├── guardian_headlines.csv
-│   └── reuters_headlines.csv
-└── README.md
+stock_market_trend.ipynb      // Main Jupyter notebook
+archive (3).zip               // News headlines dataset (CNBC, Reuters, Guardian)
+cnbc_headlines.csv
+guardian_headlines.csv
+reuters_headlines.csv
+README.md
 
 Dataset-
 Stock Price Data
