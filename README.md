@@ -84,27 +84,18 @@ CNBC
 Reuters
 The Guardian
 
-Project Workflow
+Project Workflow-
 
 Stock Price Data
-        │
 Technical Indicators
-        │
 News Headlines
-        │
 Sentiment Analysis (VADER)
-        │
 Feature Engineering
-        │
 Data Scaling
-        │
 Sequence Creation (60-Day Window)
-        │
 LSTM Models
-    ┌───────┴────────┐ 
-Price Forecast    Trend Classification
-    │                │
-    └───────┬────────┘
+-Price Forecast
+-Trend Classification
 Trading Strategy Evaluation
 
 Technologies Used-
@@ -131,39 +122,26 @@ Matplotlib
 
 Model Architecture-
 
-Price Prediction Model
+Price Prediction Model-
+
 LSTM (128)
-↓
 Dropout (0.2)
-↓
 LSTM (64)
-↓
 Dropout (0.1)
-↓
 LSTM (64)
-↓
 Dropout (0.1)
-↓
 LSTM (32)
-↓
 Dense (32)
-↓
 Dense (1)
 
 Trend Classification Model-
 
 LSTM (128)
-↓
 Dropout (0.2)
-↓
 LSTM (128)
-↓
 Dropout (0.2)
-↓
 LSTM (64)
-↓
 Dense (32)
-↓
 Dense (1, Sigmoid)
 
 Results-
