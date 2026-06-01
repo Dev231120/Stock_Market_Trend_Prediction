@@ -73,9 +73,7 @@ Validation Split-20%
 Early Stopping-patience=20, restore best weights
 
 Results-
-MSE (on scaled predictions)~0.00059
-MSE (on actual prices in USD)~4.85 (USD²)
-RMSE (approx.)~$2.20
+The regression model achieved an MSE of 0.00331 (scaled space) and 137.36 USD² (RMSE ≈ $11.72) on 240 unseen test samples.
 
 MSE values were computed both in the MinMax-scaled space and after inverse transforming back to actual USD prices.
 
@@ -98,7 +96,7 @@ Batch Size-32
 Validation Split-20%
 
 Results-
-MetricValueClassification Accuracy~54–57%
+MetricValueClassification Accuracy~57-58%
 Threshold for classification: predicted probability > 0.5 → UP (1), else DOWN (0)
 
 
